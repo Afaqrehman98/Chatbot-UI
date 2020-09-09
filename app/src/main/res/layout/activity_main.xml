@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    tools:context=".MainActivity"
+    >
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/conversation"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/userInput"/>
+
+    <EditText
+        android:id="@+id/userInput"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="8dp"
+        android:background="@drawable/bg_edit_text"
+        android:fontFamily="@font/montserrat"
+        android:hint="Ask the bot."
+        android:inputType="text"
+        android:textColor="#fff"
+        android:padding="12dp"
+        android:imeActionId="4"
+        android:imeOptions="actionSend"
+        android:textColorHint="#fff"
+        android:textSize="18sp"
+        />
+
+    <ImageView
+        android:id="@+id/imageButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="360dp"
+        android:layout_marginBottom="5dp"
+        android:src="@drawable/ic_mic"
+        android:onClick="onButtonClick"
+        />
+</RelativeLayout>

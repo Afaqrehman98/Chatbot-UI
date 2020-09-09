@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "147081241691",
+    "firebase_url": "https://chatbotui-7f384.firebaseio.com",
+    "project_id": "chatbotui-7f384",
+    "storage_bucket": "chatbotui-7f384.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:147081241691:android:b53e62ed56cb34cda30b7e",
+        "android_client_info": {
+          "package_name": "com.example.chatbotui"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "147081241691-uft7tcdcggdbg1s0v144b0vs1r26k3hu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.chatbotui",
+            "certificate_hash": "324b587a36a58e23ca5592a3f310943ac10fd588"
+          }
+        },
+        {
+          "client_id": "147081241691-h2e3tu0gslb0rjc2tcknmnflog5s158i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD88xKzrdaql1lAcW4JhP-29a8qkIWvzQU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "147081241691-h2e3tu0gslb0rjc2tcknmnflog5s158i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
